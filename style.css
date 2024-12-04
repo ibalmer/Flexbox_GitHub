@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+/*---Header---*/
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #010409;
+    padding-block: .8rem;
+    padding-inline: .8rem;
+}
+#left-header{
+    padding: .2rem;
+}
+#left-list{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .8rem;   
+}
+#left-menu{
+    width: 32px;
+    height: 32px;
+    border: 1px solid #3d444d;
+    border-radius: 6px;
+    padding: .3rem;
+}
+#left-menu img{
+    width: 100%;
+    height: 100%;
+}
+#left-text p{
+    font-size: .9rem;
+    font-weight: bolder;
+}
+#left-git img{width: 32px;}
+#right-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#input-header{
+    margin-right: .6rem;
+    padding-block: .2rem; 
+    padding-right: .6rem
+    
+}
+#list-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 260px;
+    height: 32px;  
+    border: 1px solid #3d444d;
+    border-radius: 6px;
+    padding: .2rem;
+    gap: .2rem;
+}
+#list-text{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    color: #9198a1;
+}
+#text-slash{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #3d444d;
+    border-radius: 3px;
+    margin-inline: .1586rem;    
+}
+#input-header img{
+    width: 20px;
+    margin-top: 2px;
+}
+#right-bar ul{
+    display: flex;
+    flex-direction: row;
+    height: 32px;
+    gap: .5rem;
+}
+.bar-button{
+    width: 32px;
+    height: 32px;
+    border: 1px solid #3d444d;
+    border-radius: 6px;
+    padding: .3rem;
+    
+}
+.bar-button img{
+    width: 100%;
+    height: 100%;
+    
+}
+#bar-avatar img{
+    border: 2px solid #383b40 ;
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+}
+#bar-pullrequest{
+    padding: .3rem !important;
+    text-align: center;
+}
+#bar-desp{
+    min-width: 58px;
+}
